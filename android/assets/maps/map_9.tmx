@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" nextobjectid="50">
+ <objectgroup draworder="index" name="layer_enviroment">
+  <object id="15" name="enviroment" x="48" y="48">
+   <polyline points="-48,-48 -48,432 752,432 752,-48 -48,-48"/>
+  </object>
+  <object id="32" name="goalred" x="64" y="64" width="48" height="48"/>
+  <object id="36" name="goalblue" x="688" y="368" width="48" height="48"/>
+  <object id="37" x="432" y="64" width="160" height="16">
+   <properties>
+    <property name="max_x" value="100"/>
+    <property name="max_y" value="0"/>
+    <property name="min_x" value="0"/>
+    <property name="min_y" value="0"/>
+    <property name="speed" value="1"/>
+   </properties>
+  </object>
+  <object id="38" x="592" y="160" width="16" height="160">
+   <properties>
+    <property name="max_x" value="0"/>
+    <property name="max_y" value="-100"/>
+    <property name="min_x" value="0"/>
+    <property name="min_y" value="0"/>
+    <property name="move_type" value="move_harmonic_x"/>
+    <property name="speed" value="1"/>
+   </properties>
+  </object>
+  <object id="43" x="768" y="32">
+   <properties>
+    <property name="color" value="red"/>
+   </properties>
+   <polyline points="-96,256 0,256"/>
+  </object>
+  <object id="45" x="240" y="112" width="16" height="160">
+   <properties>
+    <property name="max_x" value="0"/>
+    <property name="max_y" value="100"/>
+    <property name="min_x" value="0"/>
+    <property name="min_y" value="0"/>
+    <property name="speed" value="1"/>
+   </properties>
+  </object>
+  <object id="46" x="144" y="416" width="160" height="16">
+   <properties>
+    <property name="max_x" value="100"/>
+    <property name="max_y" value="0"/>
+    <property name="min_x" value="0"/>
+    <property name="min_y" value="0"/>
+    <property name="move_type" value="move_harmonic_x"/>
+    <property name="speed" value="1"/>
+   </properties>
+  </object>
+  <object id="48" x="32" y="176">
+   <polyline points="0,0 48,80 96,0 144,80"/>
+  </object>
+  <object id="49" x="416" y="368">
+   <polyline points="0,0 48,80 96,0 144,80"/>
+  </object>
+ </objectgroup>
+</map>

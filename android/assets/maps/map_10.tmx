@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" nextobjectid="51">
+ <objectgroup draworder="index" name="layer_enviroment">
+  <object id="15" name="enviroment" x="48" y="48">
+   <polyline points="-48,-48 -48,432 752,432 752,-48 -48,-48"/>
+  </object>
+  <object id="32" name="goalred" x="64" y="64" width="48" height="48"/>
+  <object id="36" name="goalblue" x="688" y="368" width="48" height="48"/>
+  <object id="38" x="496" y="192" width="16" height="160">
+   <properties>
+    <property name="max_x" value="0"/>
+    <property name="max_y" value="-100"/>
+    <property name="min_x" value="0"/>
+    <property name="min_y" value="0"/>
+    <property name="move_type" value="move_harmonic_x"/>
+    <property name="speed" value="1"/>
+   </properties>
+  </object>
+  <object id="43" x="768" y="32">
+   <properties>
+    <property name="color" value="red"/>
+   </properties>
+   <polyline points="-96,256 0,256"/>
+  </object>
+  <object id="45" x="288" y="80" width="16" height="160">
+   <properties>
+    <property name="max_x" value="0"/>
+    <property name="max_y" value="100"/>
+    <property name="min_x" value="0"/>
+    <property name="min_y" value="0"/>
+    <property name="move_type" value="move_harmonic_x"/>
+    <property name="speed" value="1"/>
+   </properties>
+  </object>
+  <object id="50" x="128" y="-80">
+   <properties>
+    <property name="color" value="red"/>
+   </properties>
+   <polyline points="-96,256 0,256"/>
+  </object>
+ </objectgroup>
+</map>

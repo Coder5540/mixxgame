@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" nextobjectid="48">
+ <objectgroup draworder="index" name="layer_enviroment">
+  <object id="15" name="enviroment" x="48" y="48">
+   <polyline points="-48,-48 -48,432 752,432 752,-48 -48,-48"/>
+  </object>
+  <object id="36" name="goalblue" x="704" y="384" width="48" height="48"/>
+  <object id="45" x="592" y="256" width="16" height="160"/>
+  <object id="46" x="192" y="256" width="16" height="160"/>
+  <object id="47" x="336" y="112" width="144" height="16"/>
+ </objectgroup>
+</map>
